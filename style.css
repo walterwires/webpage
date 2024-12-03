@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Spray+Paint&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Burned&family=Rubik+Spray+Paint&display=swap');
+
+html
+{
+ 
+  background-color: gray;
+  background-image: url(circle_upscaled.jpg);
+  background-size: contain;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+ font-family: "Rubik Spray Paint",sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    color: black;
+    text-align: center;
+}
+nav a {
+   text-decoration: none;
+   color: black;
+  
+}
+.navbar {
+  list-style-type: none; 
+  display: flex;
+  align-content: center;
+  text-align: center;
+  position: fixed;  /* Fix navbar at the top */
+  top: 0;           /* Align it to the top */
+  left: 0;
+  width: 100%;      
+  z-index: 1000;   
+  background-color: transparent;  
+  
+}
+nav ul{
+margin-left: 400px;
+}
+nav li {
+  margin-left: 100px;
+ 
+  
+}
+nav a:hover {
+  color: white; 
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+   
+}
+.navcontainer{
+  width:50%;
+  max-width: 500px;
+  
+}
+.image{
+  width: 40px;
+  height: auto;
+}
+.container{
+ font-family: "Rubik Spray Paint",sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    color: black;
+    text-align: left; 
+  display: flex;
+  align-content: center;
+  margin-bottom: 1500px;
+  
+}
+
+#home{
+  font-family: "Rubik Burned", sans-serif;
+  font-weight: 200;
+  font-style:normal;
+  font-size: 40px;
+  flex: 0 0 30%;
+  margin-left: 20px;
+}
+#home:hover{
+  color: #383733;
+}
+#about{
+  margin-right: 200px;
+  margin-top: 175px;
+  color: #444440;
+}
+#about:hover{
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  
+}
+#CV{
+  display: inline-block;  
+  padding: 10px 20px;     
+  text-decoration: none;  
+  color: #000; 
+  font-family: "Rubik Spray Paint",sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  background-color: transparent;
+  border: 2px solid #444440; 
+  border-radius: 7px;    
+  font-size: 16px;        
+  text-align: center; 
+  margin-left: 600px;
+  margin-bottom: 1500px;
+}
+#CV:hover{
+ color: white; 
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); 
+}
+#contact{
+ font-family: "Rubik Spray Paint",sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    color: black;
+    text-align: center;
+} 
+#contact a{
+ text-decoration: none;
+  color: #444440;
+}
+#contact a:hover{
+  color: #fff;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); 
+}
+.player{
+  width: 300px;
+  height: 80px;
+  position: fixed;
+  left:15px;
+  top:350px;
+  z-index: 9000;
+  margin-top: 200px;
+  margin-right: 0;
+}
